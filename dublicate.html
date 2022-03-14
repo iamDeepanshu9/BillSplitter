@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./dublicateStyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo"><a href="./index.html">
+            <img src="./images/logo.svg" alt="splitter"></a>
+        </div>
+        <form>
+        <div class="container">
+            
+            <section class="inputside">     
+                    <div class="entry">
+                        <p>Bill</p>
+                        <input type="number" name="bill" id="bill" placeholder="0.00">
+                    </div>
+            
+                    <div class="tipPercent">
+                        <p>Select tip %</p>
+                        <section class="buttonArea">
+                          <button type="button">5%</button>
+                          <button type="button">10%</button>
+                          <button type="button">15%</button>
+                          <button type="button">25%</button>
+                          <button type="button">50%</button>
+                          <button type="button">Custom</button>
+                        </section>
+                    </div>
+            
+                    <div class="entry">
+                        <p>Number of Persons</p>
+                        <input type="number" name="person" id="person" placeholder="0">
+                    </div>
+            </section>
+        
+                <div class="screenArea">
+                    <div class="numericScreen">
+                        <h4>Tip</h4>
+                        /person
+                        <section class="bufferDisplay">
+                          <p>$  0.01</p>
+                        </section>
+                        
+                    </div>
+                        
+                    <div class="numericScreen">
+                          <h4>Total</h4>
+                          /person
+                          <section class="bufferDisplay">
+                            <p>$  0.01</p>
+                          </section>
+                          
+                         
+                    </div>
+                    <div class="resetKey">
+                        <button type="reset">RESET</button>
+                    </div>
+                 </div>
+        </div>
+        </form>
+    </div>
+      
+</body>
+</html>
