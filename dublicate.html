@@ -24,12 +24,12 @@
             
             <section class="inputside">     
                     <div class="entry">
-                        <p>Bill</p>
-                        <input type="number" name="bill" id="bill" placeholder="0.00">
+                        <p class="inputLabel">Bill</p>
+                        <input type="number" name="bill" id="bill" value="0.00">
                     </div>
             
                     <div class="tipPercent">
-                        <p>Select tip %</p>
+                        <p class="inputLabel">Select tip %</p>
                         <section class="buttonArea">
                           <button type="button">5%</button>
                           <button type="button">10%</button>
@@ -41,15 +41,17 @@
                     </div>
             
                     <div class="entry">
-                        <p>Number of Persons</p>
-                        <input type="number" name="person" id="person" placeholder="0">
+                        <p class="inputLabel">Number of Persons</p>
+                        <input type="number" name="person" id="person" value="0">
                     </div>
             </section>
         
                 <div class="screenArea">
                     <div class="numericScreen">
-                        <h4>Tip</h4>
-                        /person
+                        <section class="bufferLabel">
+                            Tip Amount<br>
+                            <span class="perperson">/ person</span>
+                        </section>
                         <section class="bufferDisplay">
                           <p>$  0.01</p>
                         </section>
@@ -57,13 +59,13 @@
                     </div>
                         
                     <div class="numericScreen">
-                          <h4>Total</h4>
-                          /person
-                          <section class="bufferDisplay">
-                            <p>$  0.01</p>
-                          </section>
-                          
-                         
+                        <section class="bufferLabel">
+                            Total<br>
+                            <span class="perperson">/ person</span>
+                        </section>
+                        <section class="bufferDisplay">
+                          <p>$  0.01</p>
+                        </section>
                     </div>
                     <div class="resetKey">
                         <button type="reset">RESET</button>

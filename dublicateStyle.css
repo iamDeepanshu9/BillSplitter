@@ -1,6 +1,7 @@
 body{
     background-color : hsl(185, 41%, 84%);
     font-family: 'Space Mono', monospace;
+    font-size: 24px;
   }
   
   .wrapper{
@@ -45,9 +46,8 @@ body{
   
   
   .inputside{
-   
    border-radius: 20px;
-   margin : 3%;
+   margin : 1%;
    position:relative;
    width: 100%;
    height: auto;
@@ -58,15 +58,14 @@ body{
     margin : 3%;
   }
   .entry input[type=number] {
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: none;
     border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
+    font-size: 24px;
+    background-color:  hsl(189, 41%, 97%);
     background-position: 10px 10px; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
 }
 input[id=bill]{
     background-image: url('./images/icon-dollar.svg');
@@ -76,11 +75,13 @@ input[id=person]{
   background-image: url('./images/icon-person.svg');
 }
 
+
 .inputside{
  display: grid;
  grid-area: auto;
  justify-content: center;
- align-items: stretch;
+ align-items: center;
+ width: auto;
 }
 
 .buttonArea{
@@ -102,9 +103,47 @@ input[id=person]{
 .screenArea .numericScreen{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 3%;
+  padding: 3%;
+  font-size: .9rem;
 }
 .bufferDisplay p {
-  font-size: 24px;
+  font-size: 2.4em;
+  color:  #39C5B0;
+}
+.bufferLabel{
+  font-size: 1.1em;
   color: white;
+  padding-top: 3%;
+}
+.perperson{
+  font-size: 0.6em;
+  color: hsl(189, 41%, 97%);
+}
+.resetKey{
+  margin: 0 auto;
+  
+  width: 100%;
+}
+.resetKey button{
+  margin-top: 3%; 
+  padding: 4%;
+  width: 100%;
+  background-color: #39C5B0;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  color: rgb(0,71,75);
+}
+
+.inputLabel{
+  color: hsl(183, 100%, 15%);
+  font-size: 16px;
+}
+.entry input{
+  width: 100%;
+  text-align: right;
+  font-family: 'Space Mono', monospace;
+  color: #39C5B0;
 }
