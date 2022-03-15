@@ -111,11 +111,9 @@ input[id=person]{
 }
 .resetKey{
   margin: 0 auto;
-  
-  width: 100%;
+  width: 90%;
 }
 .resetKey button{
-  margin-top: 3%; 
   padding: 4%;
   width: 100%;
   background-color: #39C5B0;
