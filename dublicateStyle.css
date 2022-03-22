@@ -15,10 +15,9 @@ body{
     margin-top: 5%;
     margin-bottom:3em;
   }
-      @media only screen 
-         and (max-width : 1440px) {
-         .container
-      {
+      
+   .container
+    {
         background-color : white;
         width : 60vw;
         height : 30vw;
@@ -26,8 +25,8 @@ body{
         box-shadow: rgba(0, 0, 0, 0.95) 0px 5px 15px;
         display : grid;
         grid-template-columns : 1fr 1fr;
-      }
-   }/* for Desktop media end*/
+    }
+
   @media only screen and (max-width:375px){
     .logo img{
       max-width : 150px;
@@ -112,6 +111,7 @@ input[id=person]{
 .resetKey{
   margin: 0 auto;
   width: 90%;
+ 
 }
 .resetKey button{
   padding: 4%;
