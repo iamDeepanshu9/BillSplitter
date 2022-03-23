@@ -56,6 +56,8 @@ body{
     border-radius : 20px;
     margin : 3%;
   }
+
+  /* copied downside */
   .entry input[type=number] {
     width: 100%;
     box-sizing: border-box;
@@ -74,7 +76,7 @@ input[id=person]{
   background-image: url('./images/icon-person.svg');
 }
 
-
+/* copied upward */
 .inputside{
  display: grid;
  grid-area: auto;
@@ -95,6 +97,7 @@ input[id=person]{
   padding: 3%;
   font-size: .9rem;
 }
+/*downside copied*/
 .bufferDisplay p {
   font-size: 2.4em;
   color:  #39C5B0;
@@ -106,7 +109,7 @@ input[id=person]{
 }
 .perperson{
   font-size: 0.6em;
-  color: hsl(189, 41%, 97%);
+  color: hsl(184, 14%, 56%);
 }
 .resetKey{
   margin: 0 auto;
@@ -124,7 +127,7 @@ input[id=person]{
 }
 
 .inputLabel{
-  color: hsl(183, 100%, 15%);
+  color: hsl(184, 14%, 56%);
   font-size: 16px;
   padding-bottom: 4%;
 }
@@ -132,7 +135,7 @@ input[id=person]{
   width: 100%;
   text-align: right;
   font-family: 'Space Mono', monospace;
-  color: #39C5B0;
+  color:hsl(184, 14%, 56%);
 }
 
 .buttonArea{
@@ -159,7 +162,7 @@ input[id=person]{
 }
 #customButton{
     background-color: hsl(189, 41%, 97%);
-    color:  rgb(0,71,75);
+    color:  hsl(186, 14%, 43%);
     font-size: 1.2rem;
 }
 
